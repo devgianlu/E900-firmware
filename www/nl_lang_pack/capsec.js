@@ -1,0 +1,106 @@
+var secleftmenu = new Object();
+secleftmenu.filters="Extra filters";
+secleftmenu.blockwan="WAN-verzoeken blokkeren";
+secleftmenu.vpnpass="VPN-doorvoer";
+secleftmenu.interaccess="Internettoegang";
+secleftmenu.blocksrv="Geblokkeerde diensten";
+
+var firewall = new Object();
+firewall.firewallpro="Firewallbeveiliging";
+firewall.spifirewallpro="SPI-firewallbeveiliging";
+firewall.filterproxy="Proxy";
+firewall.cookies="Cookies";
+firewall.javaapplets="Java";
+firewall.activex="ActiveX";
+firewall.blockinterreq="Anonieme internetverzoeken filteren";
+firewall.ipv6spifirewallpro="IPv6 SPI-firewallbeveiliging";
+
+var vpn = new Object();
+vpn.ipsecpass="IPSec-doorvoer";
+vpn.pptppass="PPTP-doorvoer";
+vpn.l2tppass="L2TP-doorvoer";
+
+var filter = new Object();
+filter.policyname="Voer beleidsnaam in";
+filter.deny="Weigeren";
+filter.allow="Toestaan";
+filter.dayandhr="Internettoegang op geselecteerde dagen en tijden.";
+filter.days="Dagen";
+filter.everyday="Dagelijks";
+filter.sun="Zo";
+filter.mon="Ma";
+filter.tue="Di";
+filter.wed="Wo";
+filter.thu="Do";
+filter.fri="Vr";
+filter.sat="Za";
+filter.times="Tijden";
+filter.tfhrs="24 uur";
+filter.from="Van";
+filter.to="Tot";
+filter.am="AM";
+filter.pm="PM";
+filter.websiteblock="Websiteblokkering <BR>op URL";
+filter.blockkeyword="Websiteblokkering <BR>op trefwoord";
+filter.accessrestric="Toegangs-<BR>beperkingen";
+filter.pcs="Pc's";
+filter.sun1="Z";
+filter.mon1="M";
+filter.tue1="D";
+filter.wed1="W";
+filter.thu1="D";
+filter.fri1="V";
+filter.sat1="Z";
+filter.appliedpc="Toegepast op pc's";
+filter.thispolicy="(Dit beleid geldt alleen voor pc's in de lijst.)";
+filter.schedule="Schema";
+filter.blockedapp="Geblokkeerde toepassingen";
+filter.threeapp="<B>Opmerking:</B> er kunnen slechts drie toepassingen worden geblokkeerd per beleid.";
+filter.blockedlist="Lijst met geblokkeerde toepassingen";
+filter.keyword="Trefwoord";
+filter.threeapp2="<B>Opmerking:</b> per beleid kunnen slechts drie toepassingen worden geblokkeerd.";
+
+var summary = new Object();
+summary.policy="Overzicht internettoegangsbeleid";
+summary.num="Nr.";
+summary.policyname="Beleidsnaam";
+summary.days="Dagen";
+summary.tmofday="Tijd";
+summary.tmofday2="Tijdstip";
+
+var filterpc = new Object();
+filterpc.listpc="Overzicht van pc's";
+filterpc.entermacaddr="Voer het MAC-adres van pc's als volgt in";
+filterpc.mac01="MAC 01";
+filterpc.mac02="MAC 02";
+filterpc.mac03="MAC 03";
+filterpc.mac04="MAC 04";
+filterpc.mac05="MAC 05";
+filterpc.mac06="MAC 06";
+filterpc.mac07="MAC 07";
+filterpc.mac08="MAC 08";
+filterpc.enterip="Voer het IP-adres van de pc's in";
+filterpc.ip01="IP 01";
+filterpc.ip02="IP 02";
+filterpc.ip03="IP 03";
+filterpc.ip04="IP 04";
+filterpc.ip05="IP 05";
+filterpc.ip06="IP 06";
+filterpc.enteriprange="Voer het IP-bereik van de pc's in";
+filterpc.iprange01="IP-bereik 01";
+filterpc.iprange02="IP-bereik 02";
+
+var portsrv = new Object();
+portsrv.tcpudp="TCP & UDP";
+portsrv.portrange="Poortbereik";
+portsrv.add="Toevoegen";
+portsrv.modify="Wijzigen";
+portsrv.cancel="Annuleren";
+
+var secbutton = new Object();
+secbutton.editlist="Lijst bewerken";
+secbutton.addedit="Dienst toevoegen/bewerken";
+secbutton.editlistpc="Overzicht van pc's bewerken";
+secbutton.delpolicy="Beleid verwijderen";
+
+

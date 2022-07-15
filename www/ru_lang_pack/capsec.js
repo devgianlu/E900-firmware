@@ -1,0 +1,105 @@
+var secleftmenu = new Object();
+secleftmenu.filters="§¥§à§á§à§Ý§ß§Ú§ä§Ö§Ý§î§ß§í§Ö §æ§Ú§Ý§î§ä§â§í";
+secleftmenu.blockwan="§¢§Ý§à§Ü§Ú§â§à§Ó§Ü§Ñ §Ù§Ñ§á§â§à§ã§à§Ó WAN";
+secleftmenu.vpnpass="VPN-§ä§å§ß§ß§Ö§Ý§Ú";
+secleftmenu.interaccess="§¥§à§ã§ä§å§á §Ó §ª§ß§ä§Ö§â§ß§Ö§ä";
+secleftmenu.blocksrv="§©§Ñ§Ò§Ý§à§Ü§Ú§â§à§Ó§Ñ§ß§ß§í§Ö §ã§Ö§â§Ó§Ú§ã§í";
+
+var firewall = new Object();
+firewall.firewallpro="§©§Ñ§ë§Ú§ä§Ñ §ã §Þ§Ö§Ø§ã§Ö§ä§Ö§Ó§í§Þ §ï§Ü§â§Ñ§ß§à§Þ";
+firewall.spifirewallpro="§©§Ñ§ë§Ú§ä§Ñ §ã §Þ§Ö§Ø§ã§Ö§ä§Ö§Ó§í§Þ §ï§Ü§â§Ñ§ß§à§Þ (SPI)";
+firewall.filterproxy="§±§â§à§Ü§ã§Ú-§ã§Ö§â§Ó§Ö§â§í";
+firewall.cookies="Cookie";
+firewall.javaapplets="Java";
+firewall.activex="ActiveX";
+firewall.blockinterreq="§¶§Ú§Ý§î§ä§â§Ñ§è§Ú§ñ §Ñ§ß§à§ß§Ú§Þ§ß§í§ç §Ú§ß§ä§Ö§â§ß§Ö§ä-§Ù§Ñ§á§â§à§ã§à§Ó";
+firewall.ipv6spifirewallpro="§©§Ñ§ë§Ú§ä§Ñ §ã §á§à§Þ§à§ë§î§ð §Þ§Ö§Ø§ã§Ö§ä§Ö§Ó§à§Ô§à §ï§Ü§â§Ñ§ß§Ñ IPv6 SPI";
+
+var vpn = new Object();
+vpn.ipsecpass="IPSec-§ä§å§ß§ß§Ö§Ý§Ú";
+vpn.pptppass="PPTP-§ä§å§ß§ß§Ö§Ý§Ú";
+vpn.l2tppass="L2TP-§ä§å§ß§ß§Ö§Ý§Ú";
+
+var filter = new Object();
+filter.policyname="§£§Ó§Ö§Õ§Ú§ä§Ö §Ú§Þ§ñ §á§à§Ý§Ú§ä§Ú§Ü§Ú";
+filter.deny="§°§ä§Ü§Ñ§Ù§Ñ§ä§î";
+filter.allow="§²§Ñ§Ù§â§Ö§ê§Ú§ä§î";
+filter.dayandhr="§¥§à§ã§ä§å§á §Ó §ª§ß§ä§Ö§â§ß§Ö§ä §Ó §å§Ü§Ñ§Ù§Ñ§ß§ß§í§Ö §Õ§ß§Ú §Ú §é§Ñ§ã§í";
+filter.days="§¥§ß§Ú";
+filter.everyday="§¦§Ø§Ö§Õ§ß§Ö§Ó§ß§à";
+filter.sun="§£§ã.";
+filter.mon="§±§ß.";
+filter.tue="§£§ä.";
+filter.wed="§³§â.";
+filter.thu="§¹§ä.";
+filter.fri="§±§ä.";
+filter.sat="§³§Ò.";
+filter.times="§£§â§Ö§Þ§ñ";
+filter.tfhrs="§¬§â§å§Ô§Ý§à§ã§å§ä§à§é§ß§à";
+filter.from="§³";
+filter.to="§á§à";
+filter.am="AM";
+filter.pm="PM";
+filter.websiteblock="§¢§Ý§à§Ü§Ú§â§à§Ó§Ü§Ñ §Ó§Ö§Ò-§ã§Ñ§Û§ä§à§Ó <BR>§á§à URL-§Ñ§Õ§â§Ö§ã§Ñ§Þ";
+filter.blockkeyword="§¢§Ý§à§Ü§Ú§â§à§Ó§Ü§Ñ §Ó§Ö§Ò-§ã§Ñ§Û§ä§à§Ó <BR>§á§à §Ü§Ý§ð§é§Ö§Ó§í§Þ §ã§Ý§à§Ó§Ñ§Þ";
+filter.accessrestric="§°§Ô§â§Ñ§ß§Ú§é§Ö§ß§Ú§ñ <BR>§Õ§à§ã§ä§å§á§Ñ";
+filter.pcs="§¬§à§Þ§á§î§ð§ä§Ö§â§í";
+filter.sun1="§£§ã";
+filter.mon1="§±§ß";
+filter.tue1="§£§ä";
+filter.wed1="§³§â";
+filter.thu1="§¹§ä";
+filter.fri1="§±§ä";
+filter.sat1="§³§Ò";
+filter.appliedpc="§±§â§Ú§Þ§Ö§ß§Ö§ß§à §Õ§Ý§ñ §Ü§à§Þ§á§î§ð§ä§Ö§â§à§Ó";
+filter.thispolicy="(§±§à§Ý§Ú§ä§Ú§Ü§Ñ §á§â§Ú§Þ§Ö§ß§ñ§Ö§ä§ã§ñ §ä§à§Ý§î§Ü§à §Õ§Ý§ñ §Ü§à§Þ§á§î§ð§ä§Ö§â§à§Ó §Ó §ã§á§Ú§ã§Ü§Ö.)";
+filter.schedule="§²§Ñ§ã§á§Ú§ã§Ñ§ß§Ú§Ö";
+filter.blockedapp="§©§Ñ§Ò§Ý§à§Ü§Ú§â§à§Ó§Ñ§ß§ß§í§Ö §á§â§Ú§Ý§à§Ø§Ö§ß§Ú§ñ";
+filter.threeapp="<B>§±§â§Ú§Þ§Ö§é§Ñ§ß§Ú§Ö:</b> §à§Õ§ß§Ñ §á§à§Ý§Ú§ä§Ú§Ü§Ñ §á§à§Ù§Ó§à§Ý§ñ§Ö§ä §Ò§Ý§à§Ü§Ú§â§à§Ó§Ñ§ä§î §Õ§à 10 §á§â§Ú§Ý§à§Ø§Ö§ß§Ú§Û.";
+filter.blockedlist="§³§á§Ú§ã§à§Ü §Ù§Ñ§Ò§Ý§à§Ü§Ú§â§à§Ó§Ñ§ß§ß§í§ç §á§â§Ú§Ý§à§Ø§Ö§ß§Ú§Û";
+filter.keyword="§¬§Ý§ð§é§Ö§Ó§à§Ö §ã§Ý§à§Ó§à";
+
+var summary = new Object();
+summary.policy="§³§Ó§Ö§Õ§Ö§ß§Ú§ñ §à §á§à§Ý§Ú§ä§Ú§Ü§Ö §â§Ñ§Ò§à§ä§í §Ó §ª§ß§ä§Ö§â§ß§Ö§ä§Ö";
+summary.num="¡í";
+summary.policyname="§ª§Þ§ñ §á§à§Ý§Ú§ä§Ú§Ü§Ú";
+summary.days="§¥§ß§Ú";
+summary.tmofday="§£§â§Ö§Þ§ñ";
+summary.tmofday2="§£§â§Ö§Þ§ñ §ã§å§ä§à§Ü";
+
+var filterpc = new Object();
+filterpc.listpc="§³§á§Ú§ã§à§Ü §Ü§à§Þ§á§î§ð§ä§Ö§â§à§Ó";
+filterpc.entermacaddr="§£§Ó§Ö§Õ§Ú§ä§Ö MAC-§Ñ§Õ§â§Ö§ã§Ñ §Ü§à§Þ§á§î§ð§ä§Ö§â§à§Ó §Ó §ã§Ý§Ö§Õ§å§ð§ë§Ö§Þ §æ§à§â§Þ§Ñ§ä§Ö:";
+filterpc.mac01="MAC 01";
+filterpc.mac02="MAC 02";
+filterpc.mac03="MAC 03";
+filterpc.mac04="MAC 04";
+filterpc.mac05="MAC 05";
+filterpc.mac06="MAC 06";
+filterpc.mac07="MAC 07";
+filterpc.mac08="MAC 08";
+filterpc.enterip="§£§Ó§Ö§Õ§Ú§ä§Ö IP-§Ñ§Õ§â§Ö§ã§Ñ §Ü§à§Þ§á§î§ð§ä§Ö§â§à§Ó";
+filterpc.ip01="IP 01";
+filterpc.ip02="IP 02";
+filterpc.ip03="IP 03";
+filterpc.ip04="IP 04";
+filterpc.ip05="IP 05";
+filterpc.ip06="IP 06";
+filterpc.enteriprange="§£§Ó§Ö§Õ§Ú§ä§Ö §Õ§Ú§Ñ§á§Ñ§Ù§à§ß IP-§Ñ§Õ§â§Ö§ã§à§Ó §Ü§à§Þ§á§î§ð§ä§Ö§â§à§Ó";
+filterpc.iprange01="§¥§Ú§Ñ§á§Ñ§Ù§à§ß IP-§Ñ§Õ§â§Ö§ã§à§Ó 01";
+filterpc.iprange02="§¥§Ú§Ñ§á§Ñ§Ù§à§ß IP-§Ñ§Õ§â§Ö§ã§à§Ó 02";
+var portsrv = new Object();
+portsrv.tcpudp="TCP §Ú UDP";
+portsrv.portrange="§¥§Ú§Ñ§á§Ñ§Ù§à§ß §á§à§â§ä§à§Ó";
+portsrv.add="§¥§à§Ò§Ñ§Ó§Ú§ä§î";
+portsrv.modify="§ª§Ù§Þ§Ö§ß§Ú§ä§î";
+portsrv.cancel="§°§ä§Þ§Ö§ß§Ñ";
+
+var secbutton = new Object();
+secbutton.editlist="§²§Ö§Õ§Ñ§Ü§ä§Ú§â§à§Ó§Ñ§ä§î §ã§á§Ú§ã§à§Ü";
+secbutton.addedit="§¥§à§Ò§Ñ§Ó§Ú§ä§î/§ª§Ù§Þ§Ö§ß§Ú§ä§î §ã§Ý§å§Ø§Ò§å";
+secbutton.editlistpc="§ª§Ù§Þ§Ö§ß§Ú§ä§î §ã§á§Ú§ã§à§Ü §Ü§à§Þ§á§î§ð§ä§Ö§â§à§Ó";
+secbutton.delpolicy="§µ§Õ§Ñ§Ý§Ú§ä§î §á§à§Ý§Ú§ä§Ú§Ü§å";
+
+
+

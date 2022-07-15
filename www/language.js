@@ -1,0 +1,15 @@
+var lang1 = new Object();
+lang1.en="English";
+lang1.ar="العربية";
+lang1.dk="Dansk";
+lang1.de="Deutsch";
+lang1.es="Español";
+lang1.fr="Français";
+lang1.frc="Français canadien";
+lang1.it="Italiano";
+lang1.nl="Nederlands";
+lang1.pl="Polski";
+lang1.pt="Português";
+lang1.ru="Русский";
+lang1.se="Svenska";
+lang1.tr="Türkçe";

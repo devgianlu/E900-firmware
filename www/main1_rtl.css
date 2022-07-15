@@ -1,0 +1,528 @@
+/* This file is applied ot all pages. */
+a{ TEXT-DECORATION: none }
+a:link { color: #a5d5fd; }
+a:visited { color: #a5d5fd; } 
+a:hover { color: #a5d5fd; } 
+
+input
+{
+color: #535353;
+background: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #09344d url(../image/layout/top_to_bottom_gradient.jpg)
+                top left repeat-x;
+}
+
+/* color and spacing for main display tile */
+div#content {
+    background: url(../image/layout/Background.jpg)
+                top left no-repeat;
+    /* 749 - 40 = 709 */
+    padding-right: 40px;
+    width: 1000px;
+    _width: 1050px;	/* for IE6 */
+    /* 501 - 85 = 416 */
+    padding-top: 85px;
+    height: 416px;
+}
+
+/* Horizontally-center div#content */
+body {
+    text-align: center;
+}
+div#content {
+    margin: 0 auto;
+    text-align: right;
+}
+
+div#content h1 {
+    float:right;
+    width:220px;
+    font-family: Arial Bold, Arial, sans-serif;
+    font-size: 20pt;
+    color: #a5d5fd;
+    margin: 30px 60px 0 22px;
+    text-align: left;
+}
+
+div#content p {
+    margin: 0 0 0 0;
+}
+
+div#content div.model1_E1200 {
+    float:right;
+    width:220px;
+    margin: 90px -300px 0 0;
+}
+
+div#content div.model1_E900 {
+    float:right;
+    width:220px;
+    margin: 90px -325px 0 0;
+}
+
+div#content div.model1_E800 {
+    float:right;
+    width:220px;
+    margin: 90px -325px 0 0;
+}
+
+div#content div.model1_E1500 {
+    float:right;
+    width:220px;
+    margin: 90px -300px 0 0;
+}
+
+div#content div.model2_E1200 {
+    float:right;
+    width:220px;
+    margin: 80px -300px 0 0;
+}
+
+div#content div.model2_E900 {
+    float:right;
+    width:220px;
+    margin: 80px -325px 0 0;
+}
+
+div#content div.model2_E800 {
+    float:right;
+    width:220px;
+    margin: 80px -325px 0 0;
+}
+
+div#content div.model2_E1500 {
+    float:right;
+    width:220px;
+    margin: 80px -300px 0 0;
+}
+
+div#content div.model3 {
+    float:right;
+    width:150px;
+    margin: 150px -150px 0 0;
+}
+
+div#content div.divider {
+float:right;
+width:0px;
+    margin: 30px 0 0 0;
+}
+
+div#content div.info-text {
+    background: url(../image/layout/Text_BG_top.png)
+                top right no-repeat;
+    float:right;
+    width: 540px;
+    margin: 30px 30px 0 0;
+}
+div#content div.info-text p {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    color: #e7e7e7;
+    margin: 20px 30px 0 80px;
+}
+
+div#content div.info-text dt {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    font-weight:700;
+    color: #a5d5fd;
+    margin: 10px 30px 0 80px;
+}
+
+div#content div.info-test0 {
+    float:right;
+    width: 400px;
+    margin: 20px 0 0 0;
+}
+div#content div.info-test0 p {
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    font-weight:700;
+    color: #a5d5fd;
+    margin: 0 0 0 0;
+}
+
+div#content div.icon {
+    float:right;
+    width:50px;
+    margin: 20px 30px 0 5px;
+}
+
+div#content div.box {
+    float:right;
+    width:20px;
+    margin: 20px 0 0 5px;
+}
+
+div#content div.line {
+    width:470px;
+    margin: 0 30px 0 0;
+}
+
+div#content div.info-text1 {
+    width: 540px;
+    height:70px;
+    margin: 10px 0 0 0 ;
+}
+
+div#content div.dt1 {
+    float:right;
+    width: 140px;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    font-weight: 700;
+    color: #a5d5fd;
+    margin: 0 30px 0 0;
+}
+
+div#content div.dt2 {
+    width: 125px;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: #e7e7e7;
+    font-weight: 400;
+    text-align: right;
+    margin: 0 0 0 20px;
+}
+
+div#content div.info-test2 {
+    float:right;
+    width: 400px;
+    margin: 20px 0 0 0;
+}
+div#content div.info-test2 p {
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+    color: #e7e7e7;
+    margin: 0 0 0 0;
+}
+
+div#content div.info-test3 {
+    width: 470px;
+    margin: 20px 0 0 30px;
+}
+div#content div.info-test3 p {
+    font-family: Arial, sans-serif;
+    font-size: 9pt;
+    color: #e7e7e7;
+    margin: 15px 30px 0 0;
+}
+div#content div.formwrapper {
+    margin: 30px 30px 0 0;
+ }
+
+div#content form {
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+}
+div#content form label {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: #ffffff;
+    margin: 10px 0 10px 0;
+}
+
+div#content form div.error p {
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: orange;
+    margin: 10px 0 10px 0;
+}
+
+div#content div.alt-view p {
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: #a5d5fd;
+    text-align: right;
+    margin: 40px 30px 40px 0;
+}
+
+/* Buttons */
+table.button {
+    cursor: pointer;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    margin: 0;
+    height: 31px;    /* HEIGHT 1 */
+    width: 140px;
+    padding: 0;
+    text-align: center;
+}
+
+table.button td.button_pic {
+    background: url(../image/layout/Continue_button_normal.png) no-repeat;
+/*
+    background: url(../image/layout/continue_button_default_<% get_lang(); %>.png);
+    padding: 15px 70px;
+*/
+}
+/*
+table.button:hover td.button_pic {
+    background: url(../image/layout/continue_button_over_<% get_lang(); %>.png);
+    padding: 15px 70px;
+}
+*/
+table.button.click td.button_pic {
+    background: url(../image/layout/Continue_button_normal.png) no-repeat;
+/*
+    background: url(../image/layout/continue_button_default_<% get_lang(); %>.png);
+    padding: 15px 70px;
+*/
+}
+
+table.button td.button_pic span {
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold; 
+    color:#ffffff;
+ }
+ 
+ table.button.click td.button_pic span {
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold; 
+    color:#ffffff;
+ }
+
+table.button_hover {
+    cursor: pointer;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    margin: 0;
+    height: 31px;    /* HEIGHT 1 */
+    width: 140px;
+    padding: 0;
+    text-align: center;
+}
+table.button_hover td.button_pic {
+    background: url(../image/layout/Continue_button_hover.png) no-repeat;
+/*
+    background: url(../image/layout/continue_button_over_<% get_lang(); %>.png);
+    padding: 15px 70px;
+*/
+}
+table.button_hover.click td.button_pic {
+    background: url(../image/layout/Continue_button_normal.png)no-repeat;
+/*
+    background: url(../image/layout/continue_button_default_<% get_lang(); %>.png);
+    padding: 15px 70px;
+*/
+}
+
+table.button_hover td.button_pic span {
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold; 
+    color:#ffffff;
+}
+
+table.button_hover.click td.button_pic span {
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold; 
+    color:#ffffff;
+}
+
+table.disabled_button {
+    cursor: pointer;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    margin: 0;
+    height: 31px;    /* Continue_button_disabled.png HEIGHT */
+    width: 140px;
+    padding: 0;
+    text-align: center;
+}
+table.disabled_button td.disabled_button_pic {
+    background: url(../image/layout/Continue_button_disabled.png) no-repeat;
+/*
+    background: url(../image/layout/continue_button_disabled_<% get_lang(); %>.png);
+    padding: 15px 70px;
+*/
+}
+table.disabled_button:hover td.disabled_button_pic {
+    background: url(../image/layout/Continue_button_disabled.png) no-repeat;
+/*
+    background: url(../image/layout/continue_button_disabled_<% get_lang(); %>.png);
+    padding: 15px 70px;
+*/
+}
+table.disabled_button.click td.disabled_button_pic {
+    background: url(../image/layout/Continue_button_disabled.png) no-repeat;
+/*
+    background: url(../image/layout/continue_button_disabled_<% get_lang(); %>.png);
+    padding: 15px 70px;
+*/
+}
+
+table.disabled_button td.disabled_button_pic span {
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold; 
+    color:#ffffff;
+}
+
+table.disabled_button:hover td.disabled_button_pic span {
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold; 
+    color:#ffffff;
+}
+table.disabled_button.click td.disabled_button_pic span {
+    font-family:Arial; 
+    font-size:10pt; 
+    font-weight:bold; 
+    color:#ffffff;
+}
+
+table.install_button {
+    cursor: pointer;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    margin: 0;
+    height: 66px;    /* Install_Button.png HEIGHT */
+    width: 392px;
+    padding: 0;
+    text-align: center;
+}
+table.install_button td.pic {
+    background: url(../image/layout/Install_Button_AR.png) no-repeat;
+/*
+    background: url(../image/layout/install_button_normal_<% get_lang(); %>.png);
+    padding: 33px 196px;
+*/
+}
+/*
+table.install_button:hover td.pic {
+    background: url(../image/layout/install_button_hover_<% get_lang(); %>.png);
+    padding: 33px 196px;
+}
+*/
+table.install_button.click td.pic {
+    background: url(../image/layout/Install_Button_AR.png) no-repeat;
+/*
+    background: url(../image/layout/install_button_normal_<% get_lang(); %>.png);
+    padding: 33px 196px;
+*/
+}
+
+table.install_button td.pic span {
+	margin-right:85px;
+	font-family:Arial;
+    font-size:11pt; 
+    font-weight:bold; 
+    color:#ffffff;
+    word-spacing:-0.1em;
+}
+table.install_button.click td.pic span {
+		margin-right:85px;
+		font-family:Arial; 
+    font-size:11pt; 
+    font-weight:bold; 
+    color:#ffffff;
+    word-spacing:-0.1em;
+}
+
+table.install_button_hover {
+    cursor: pointer;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    margin: 0;
+    height: 66px;    /* Install_Button.png HEIGHT */
+    width: 392px;
+    padding: 0;
+    text-align: center;
+}
+table.install_button_hover td.pic {
+    background: url(../image/layout/Install_Button_over_AR.png) no-repeat;
+/*
+    background: url(../image/layout/install_button_hover_<% get_lang(); %>.png);
+    padding: 33px 196px;
+*/
+}
+table.install_button_hover.click td.pic {
+    background: url(../image/layout/Install_Button_AR.png) no-repeat;
+/*
+    background: url(../image/layout/install_button_normal_<% get_lang(); %>.png);
+    padding: 33px 196px;
+*/
+}
+
+table.install_button_hover td.pic span {
+    margin-right:85px;
+    font-family:Arial; 
+    font-size:11pt; 
+    font-weight:bold; 
+    color:#ffffff;
+    word-spacing:-0.1em;
+}
+
+table.install_button_hover.click td.pic span {
+    margin-right:85px;
+    font-family:Arial; 
+    font-size:11pt; 
+    font-weight:bold; 
+    color:#ffffff;
+    word-spacing:-0.1em;
+}
+
+table.checkbox {
+    float:right;
+    width:30px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    height: 16px;    /* Install_Button.png HEIGHT */
+    padding: 0;
+}
+table.checkbox td.pic {
+    background: url(../image/layout/checkbox.png) no-repeat center;
+    padding: 8px 8px;
+}
+table.checkbox td.text a {
+    color: #e7e7e7;;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    padding-right: 8px;
+}
+
+table.checkbox_over {
+    float:right;
+    width:30px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    height: 16px;    /* Install_Button.png HEIGHT */
+    padding: 0;
+}
+table.checkbox_over td.pic {
+    background: url(../image/layout/checkbox_over.png) no-repeat center;
+    padding: 8px 8px;
+}
+table.checkbox_over td.text a {
+    color: #e7e7e7;;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    padding-right: 8px;
+}
+
+

@@ -1,0 +1,143 @@
+﻿var adtopmenu = new Object();
+adtopmenu.manage="Yönetim";
+adtopmenu.log="Günlük";
+adtopmenu.diag="Tanılama";
+adtopmenu.facdef="Fabrika Varsayılanları";
+adtopmenu.upgarde="Bellenim Yükseltme";
+adtopmenu.lang="Dil";
+adtopmenu.selan="Dilinizi seçin";
+adtopmenu.multilang="Birden Fazla Dil";
+
+var adleftmenu = new Object();
+adleftmenu.routerpsw="Router Parolası";
+adleftmenu.localaccess="Router Erişimi";
+adleftmenu.routerpsw="Router Parolası";
+adleftmenu.remoteaccess="Uzaktan Yönetim Erişimi";
+adleftmenu.ping="Ping Testi";
+adleftmenu.pingparam="Ping Parametreleri";
+adleftmenu.tracertest="Yol İzleme Testi";
+adleftmenu.tracerparam="Yol İzleme Parametreleri";
+adleftmenu.upgradefw="Bellenimi Yükselt";
+adleftmenu.advfeature="Gelişmiş özellikler";
+adleftmenu.reboot="Yeniden Başlat";
+
+var mgt = new Object();
+mgt.reconfirm="Onaylamak İçin &nbsp;Yeniden Girin";
+mgt.remotemgt="Uzaktan &nbsp;Yönetim";
+mgt.webassistant="Linksys Web Yardımcısı";
+mgt.mgtport="Yönetim Portu";
+mgt.rmtmgtport="Uzaktan Yönetim Portu";
+mgt.https="https kullan";
+mgt.upnp="UPnP";
+mgt.igmp="IGMP";
+mgt.remoteupgrade="Uzaktan Yükseltme";
+mgt.remoteip="İzin Verilen Uzak IP Adresi";
+mgt.anyip="Her IP Adresi";
+mgt.upnpconfig="Kullanıcıların Yapılandırmasına İzin Ver";
+mgt.upnpinternetdis="Kullanıcıların İnternet Erişimini <BR>&nbsp;Devreden Çıkarmasına İzin Ver";
+mgt.sipalg="SIP ALG";
+mgt.ctf="CTF";
+
+var log = new Object();
+log.inlogtbl="Gelen Günlük Tablosu";
+log.srcip="Kaynak IP Adresi";
+log.desportnum="Hedef Port Numarası";
+log.outlogtbl="Giden Günlük Tablosu";
+log.lanip="LAN IP";
+log.desurlip="Hedef URL/IP";
+log.portnum="Hizmet/Port Numarası";
+log.inlog="Gelen Günlüğü";
+log.outlog="Giden Günlüğü";
+log.seclog="Güvenlik Günlüğü";
+log.dhcplog="DHCP İstemci Günlüğü";
+log.type="Tür";
+log.remotelog="Günlük görüntüleyici IP Adresi";
+log.msg1="(0 devredışı demektir)"; 
+log.lanipaddr="LAN IP Adresi";
+log.dstip="Hedef URL veya IP Adresi";
+log.srvport="Port Numarası (Hizmet)";
+
+var ping = new Object();
+ping.ipdomain="IP Adresi veya Etkialanı Adı";
+ping.ipurl="IP veya URL Adresi";
+ping.times="Ping Sayısı";
+ping.unlimited="Sınırsız";
+ping.pktsize="Paket Boyutu";
+ping.unreach="Ağa erişilemiyor";
+ping.pkttr="Aktarılan paketler";
+ping.pktrx="Alınan paketler";
+ping.pktloss="Paket kaybı";
+ping.databyte="veri baytı";
+ping.datastat="veri istatistikleri";
+ping.roundtrip="gidiş-dönüş min/ort/maks";
+ping.bytefrom="bayt:";
+ping.time="Zaman";
+ping.reqout="İstenen zaman aşımı";
+ping.unknown="Bilinmeyen ana makine";
+
+var tracert = new Object();
+tracert.unreach="Ağa erişilemiyor";
+tracert.traceto="buraya yol ileme:";
+tracert.hopsmax="maksimum atlama";
+tracert.bytepkt="bayt paket";
+tracert.reqout="İstenen zaman aşımı";
+tracert.tracecomp="Yol tam";
+tracert.unknown="Bilinmeyen ana makine";
+
+var facdef = new Object();
+facdef.refacdefa="Fabrika Varsayılanlarını Geri Yükle";
+facdef.refacdefa2="Fabrika Varsayılanlarını Geri Yükle";
+facdef.helpmsg="Bu özellik Router'ın tüm yapılandırma ayarlarını varsayılan değerlerine sıfırlamanızı sağlar.";
+
+var fwupgrade = new Object();
+fwupgrade.upgradefile="Lütfen yükseltmek için bir dosya seçin.";
+fwupgrade.warning="<B>Uyarı: </B>Bellenimin yükseltilmesi birkaç dakika alabilir, lütfen gücü kapatmayın<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;veya sıfırla düğmesine basmayın.";
+fwupgrade.notinterrupted="Yükseltme yarıda KESİLMEMELİDİR!!";
+fwupgrade.upgradesuccess="Yükseltme başarılı.";
+fwupgrade.restoresuccess="Geri yükleme başarılı.";
+fwupgrade.reboot="Yeniden başlatılıyor......";
+fwupgrade.helpmsg="Router&#8217;ın bellem yükseltme dosyasını  <b><u><a href='http://www.linksys.com/'>www.linksys.com</a></u></b> adresindeki web sitesinden indirin. <b>Gözat</b> düğmesini tıklatın ve bellenim yükseltme dosyasını seçin. Ardından, <b>Yükseltmeye Başla</b> düğmesini tıklatın."
+fwupgrade.safeupmsg1="Güvenli yükseltme yöntemini kullanmak istiyorsanız, lütfen önce LAN adresinizi IP \"192.168.1.1\" olarak değiştirin!";
+fwupgrade.safeupmsg2="Yükseltme için Güvenli Modu kullandığınızdan emin misiniz?";
+
+var lang = new Object();
+lang.ch="Çince";
+lang.en="İngilizce";
+lang.dk="Dansk";
+lang.de="Deutsch";
+lang.es="Español";
+lang.fr="Français";
+lang.frc="Français canadien";
+lang.it="Italiano";
+lang.nl="Nederlands";
+lang.pt="Português";
+lang.se="Svenska";
+lang.ru="Rusça";
+lang.pl="Lehçe";
+lang.ar="Arapça";
+lang.tr="Türkçe";
+lang.title="Dil Paketi Yükseltme";
+lang.uploadfile="Lütfen Yükseltmek için bir dil seçin";
+
+var adbutton = new Object();
+adbutton.inlog="Gelen Günlüğü";
+adbutton.outlog="Giden Günlüğü";
+adbutton.ping="Ping";
+adbutton.tracer="Yol İzleme";
+adbutton.upgrade="Yükselt";
+adbutton.safeupgrade="Güvenli Yükseltme";
+adbutton.stop="Durdur";
+adbutton.clearlog="Günlüğü Temizle";
+adbutton.traceroute="Yol İzleme";
+adbutton.starttracer="Yol izlemeyi başlat";
+adbutton.startupgrade="Yükseltmeye Başla";
+adbutton.startping="Ping Testini Başlat";
+adbutton.starttest="Testi Başlat";
+adbutton.viewlog="Günlüğü Göster";
+adbutton.clear="Temizle";
+adbutton.savelog="Günlüğü Kaydet";
+adbutton.dhcpres="DHCP Ayırma";
+adbutton.startrestore="Geri Yüklemeye Başla";
+
+
+

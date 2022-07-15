@@ -1,0 +1,106 @@
+var secleftmenu = new Object();
+secleftmenu.filters="Filtres supplémentaires";
+secleftmenu.blockwan="Bloquer les requêtes WAN";
+secleftmenu.vpnpass="Passthrough VPN";
+secleftmenu.interaccess="Accès Internet";
+secleftmenu.blocksrv="Services bloqués";
+
+var firewall = new Object();
+firewall.firewallpro="Protection par pare-feu";
+firewall.spifirewallpro="Protection pare-feu SPI";
+firewall.filterproxy="Proxy";
+firewall.cookies="Cookies";
+firewall.javaapplets="Java";
+firewall.activex="ActiveX";
+firewall.blockinterreq="Filtrage des requêtes Internet anonymes";
+firewall.ipv6spifirewallpro="Protection par pare-feu SPI du iPv6";
+
+var vpn = new Object();
+vpn.ipsecpass="Passthrough IPSec";
+vpn.pptppass="Passthrough PPTP";
+vpn.l2tppass="Passthrough L2TP";
+
+var filter = new Object();
+filter.policyname="Saisir le nom de la stratégie";
+filter.deny="Refuser";
+filter.allow="Autoriser";
+filter.dayandhr="l'accès à Internet pendant les jours et les heures sélectionnés.";
+filter.days="Jours";
+filter.everyday="Tous les jours";
+filter.sun="Dim";
+filter.mon="Lun";
+filter.tue="Mar";
+filter.wed="Mer";
+filter.thu="Jeu";
+filter.fri="Ven";
+filter.sat="Sam";
+filter.times="Heures";
+filter.tfhrs="24 heures";
+filter.from="De";
+filter.to="A";
+filter.am="AM";
+filter.pm="PM";
+filter.websiteblock="Blocage du site Web<BR>par adresse URL";
+filter.blockkeyword="Blocage du site Web<BR>par mot-clé ";
+filter.accessrestric="Restrictions <BR>d'accès";
+filter.pcs="Ordinateurs";
+filter.sun1="D";
+filter.mon1="L";
+filter.tue1="M";
+filter.wed1="M";
+filter.thu1="J";
+filter.fri1="V";
+filter.sat1="S";
+filter.appliedpc="Ordinateurs concernés";
+filter.thispolicy="(Cette stratégie s'applique uniquement aux ordinateurs de la liste.)";
+filter.schedule="Programmation";
+filter.blockedapp="Applications bloquées";
+filter.threeapp="<B>Remarque :</B> Seules trois applications peuvent être bloquées<BR> par une même stratégie.";
+filter.blockedlist="Liste des applications bloquées";
+filter.keyword="Mot-clé ";
+filter.threeapp2="<B>Remarque :</b> Seules trois applications peuvent être bloquées par stratégie.";
+
+var summary = new Object();
+summary.policy="Récapitulatif de la stratégie Internet";
+summary.num="N° ";
+summary.policyname="Nom de la stratégie";
+summary.days="Jours";
+summary.tmofday="Heure";
+summary.tmofday2="Heure";
+
+var filterpc = new Object();
+filterpc.listpc="Liste des ordinateurs";
+filterpc.entermacaddr="Entrez l'adresse MAC des ordinateurs au format";
+filterpc.mac01="MAC 01";
+filterpc.mac02="MAC 02";
+filterpc.mac03="MAC 03";
+filterpc.mac04="MAC 04";
+filterpc.mac05="MAC 05";
+filterpc.mac06="MAC 06";
+filterpc.mac07="MAC 07";
+filterpc.mac08="MAC 08";
+filterpc.enterip="Saisissez l'adresse IP des ordinateurs";
+filterpc.ip01="IP 01";
+filterpc.ip02="IP 02";
+filterpc.ip03="IP 03";
+filterpc.ip04="IP 04";
+filterpc.ip05="IP 05";
+filterpc.ip06="IP 06";
+filterpc.enteriprange="Saisissez la plage IP des ordinateurs";
+filterpc.iprange01="Plage IP 01";
+filterpc.iprange02="Plage IP 02";
+
+var portsrv = new Object();
+portsrv.tcpudp="TCP et UDP";
+portsrv.portrange="Plage de ports";
+portsrv.add="Ajouter";
+portsrv.modify="Modifier";
+portsrv.cancel="Annuler";
+
+var secbutton = new Object();
+secbutton.editlist="Modifier la liste";
+secbutton.addedit="Ajouter/Modifier un service";
+secbutton.editlistpc="Modifier la liste des ordinateurs";
+secbutton.delpolicy="Supprimer cette stratégie";
+
+

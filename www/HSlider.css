@@ -1,0 +1,15 @@
+.TM-HSlider-Rect 
+{
+	border:none;
+/*	background-image: url(./image/slid4h_bg.gif);*/
+	background-repeat:no-repeat;
+	overflow: hidden;
+	position: relative;
+}
+.TM-HSlider-Bar
+{
+	border:none;
+/*	background-image: url(./image/slid4h_sl.gif);*/
+	position: absolute;
+	left: 5px;
+}

@@ -1,0 +1,13 @@
+document.write("<script src=/common.js></script>");
+document.write("<SCRIPT language=Javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/capsec.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/share.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/help.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/capapp.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/capadmin.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/capstatus.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/capasg.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/capsetup.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/capwrt54g.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/timezone.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/layout.js></SCRIPT>");
+document.write("<SCRIPT language=javascript type=text/javascript src=/<% get_lang(); %>_lang_pack/storage.js></SCRIPT>");

@@ -1,0 +1,106 @@
+var secleftmenu = new Object();
+secleftmenu.filters="Altri filtri";
+secleftmenu.blockwan="Blocco richieste WAN";
+secleftmenu.vpnpass="Passthrough VPN";
+secleftmenu.interaccess="Accesso Internet";
+secleftmenu.blocksrv="Servizi bloccati";
+
+var firewall = new Object();
+firewall.firewallpro="Protezione firewall";
+firewall.spifirewallpro="Protezione firewall IPv4 SPI";
+firewall.ipv6spifirewallpro="Protezione firewall IPv6 SPI";
+firewall.filterproxy="Proxy";
+firewall.cookies="Cookie";
+firewall.javaapplets="Java";
+firewall.activex="ActiveX";
+firewall.blockinterreq="Filtro richieste Internet anonime";
+
+var vpn = new Object();
+vpn.ipsecpass="Passthrough IPSec";
+vpn.pptppass="Passthrough PPTP";
+vpn.l2tppass="Passthrough L2TP";
+
+var filter = new Object();
+filter.policyname="Immetti nome criterio";
+filter.deny="Nega";
+filter.allow="Consenti";
+filter.dayandhr="accesso a Internet durante i giorni e le ore selezionati";
+filter.days="Giorni";
+filter.everyday="Tutti i giorni";
+filter.sun="Dom";
+filter.mon="Lun";
+filter.tue="Mar";
+filter.wed="Mer";
+filter.thu="Gio";
+filter.fri="Ven";
+filter.sat="Sab";
+filter.times="Ora";
+filter.tfhrs="24 ore";
+filter.from="Da";
+filter.to="Per";
+filter.am="AM";
+filter.pm="PM";
+filter.websiteblock="Blocco dei siti Web<BR>mediante indirizzo URL";
+filter.blockkeyword="Blocco dei siti Web<BR>mediante parola chiave";
+filter.accessrestric="Restrizioni di <BR>accesso";
+filter.pcs="PC";
+filter.sun1="D";
+filter.mon1="L";
+filter.tue1="M";
+filter.wed1="M";
+filter.thu1="G";
+filter.fri1="V";
+filter.sat1="S";
+filter.appliedpc="PC ai quali è applicato";
+filter.thispolicy="(questo criterio si applica solo ai PC in elenco)";
+filter.schedule="Pianificazione";
+filter.blockedapp="Applicazioni bloccate";
+filter.threeapp="<B>Nota:</B> è possibile bloccare solo tre applicazioni per criterio.";
+filter.blockedlist="Elenco bloccati";
+filter.keyword="Parola chiave";
+filter.threeapp2="<B>Nota:</b> per ogni criterio possono essere bloccate solo tre applicazioni.";
+
+var summary = new Object();
+summary.policy="Riepilogo criteri Internet";
+summary.num="N.";
+summary.policyname="Nome criterio";
+summary.days="Giorni";
+summary.tmofday="Ora";
+summary.tmofday2="Orario";
+
+var filterpc = new Object();
+filterpc.listpc="Elenco PC";
+filterpc.entermacaddr="Immettere l'indirizzo MAC dei PC in questo formato:";
+filterpc.mac01="MAC 01";
+filterpc.mac02="MAC 02";
+filterpc.mac03="MAC 03";
+filterpc.mac04="MAC 04";
+filterpc.mac05="MAC 05";
+filterpc.mac06="MAC 06";
+filterpc.mac07="MAC 07";
+filterpc.mac08="MAC 08";
+filterpc.enterip="Immettere l'indirizzo IP dei PC";
+filterpc.ip01="IP 01";
+filterpc.ip02="IP 02";
+filterpc.ip03="IP 03";
+filterpc.ip04="IP 04";
+filterpc.ip05="IP 05";
+filterpc.ip06="IP 06";
+filterpc.enteriprange="Immettere l'intervallo IP dei PC";
+filterpc.iprange01="Intervallo IP 01";
+filterpc.iprange02="Intervallo IP 02";
+
+var portsrv = new Object();
+portsrv.tcpudp="TCP e UDP";
+portsrv.portrange="Intervallo porte";
+portsrv.add="Aggiungi";
+portsrv.modify="Modifica";
+portsrv.cancel="Annulla";
+
+var secbutton = new Object();
+secbutton.editlist="Modifica elenco";
+secbutton.addedit="Aggiungi/Modifica servizio";
+secbutton.editlistpc="Modifica elenco PC";
+secbutton.delpolicy="Elimina criterio";
+
+

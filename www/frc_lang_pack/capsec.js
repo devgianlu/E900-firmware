@@ -1,0 +1,106 @@
+var secleftmenu = new Object();
+secleftmenu.filters="Filtres supplémentaires";
+secleftmenu.blockwan="Bloquer les demandes de réseau étendu";
+secleftmenu.vpnpass="Connexion RPV directe";
+secleftmenu.interaccess="Accès Internet";
+secleftmenu.blocksrv="Services bloqués";
+
+var firewall = new Object();
+firewall.firewallpro="Pare-feu";
+firewall.spifirewallpro="Protection de pare-feu SPI";
+firewall.filterproxy="Proxy";
+firewall.cookies="Cookies";
+firewall.javaapplets="Java";
+firewall.activex="ActiveX";
+firewall.blockinterreq="Filtrer les requêtes Internet anonymes";
+firewall.ipv6spifirewallpro="Protection de pare-feu SPI IPv6";
+
+var vpn = new Object();
+vpn.ipsecpass="Connexion IPSec";
+vpn.pptppass="Connexion PPTP";
+vpn.l2tppass="Connexion L2TP";
+
+var filter = new Object();
+filter.policyname="Entrer nom de politique";
+filter.deny="Refuser";
+filter.allow="Autoriser";
+filter.dayandhr="Accès Internet durant les jours et les heures sélectionnés.";
+filter.days="Jours";
+filter.everyday="Chaque jour";
+filter.sun="Dim";
+filter.mon="Lun";
+filter.tue="Mar";
+filter.wed="Mer";
+filter.thu="Jeu";
+filter.fri="Ven";
+filter.sat="Sam";
+filter.times="Heures";
+filter.tfhrs="24 heures";
+filter.from="De";
+filter.to="À";
+filter.am="AM";
+filter.pm="PM";
+filter.websiteblock="Blocage de site Web <BR>par adresse Internet";
+filter.blockkeyword="Blocage de site Web <BR>par mot clé";
+filter.accessrestric="Restrictions <BR>d'accès";
+filter.pcs="PC";
+filter.sun1="S";
+filter.mon1="L";
+filter.tue1="J";
+filter.wed1="M";
+filter.thu1="J";
+filter.fri1="V";
+filter.sat1="S";
+filter.appliedpc="Ordinateurs touchés";
+filter.thispolicy="(Cette politique s'applique uniquement aux ordinateurs dans la liste.)";
+filter.schedule="Horaire";
+filter.blockedapp="Applications bloquées";
+filter.threeapp="<B>Remarque : </B>seulement 3 applications peuvent être bloquées par politique.";
+filter.blockedlist="Liste bloquée";
+filter.keyword="Mot clé";
+filter.threeapp2="<B>Remarque :</b> seulement 3 applications peuvent être bloquées par politique.";
+
+var summary = new Object();
+summary.policy="Sommaire de la politique Internet";
+summary.num="Non.";
+summary.policyname="Nom de politique";
+summary.days="Jours";
+summary.tmofday="Temps";
+summary.tmofday2="Heure du jour";
+
+var filterpc = new Object();
+filterpc.listpc="Liste des ordinateurs";
+filterpc.entermacaddr="Entrer l'adresse MAC des ordinateurs dans ce format";
+filterpc.mac01="MAC 01";
+filterpc.mac02="MAC 02";
+filterpc.mac03="MAC 03";
+filterpc.mac04="MAC 04";
+filterpc.mac05="MAC 05";
+filterpc.mac06="MAC 06";
+filterpc.mac07="MAC 07";
+filterpc.mac08="MAC 08";
+filterpc.enterip="Entrez l'adresse IP des ordinateurs";
+filterpc.ip01="IP 01";
+filterpc.ip02="IP 02";
+filterpc.ip03="IP 03";
+filterpc.ip04="IP 04";
+filterpc.ip05="IP 05";
+filterpc.ip06="IP 06";
+filterpc.enteriprange="Entrez la plage d'adresses IP des ordinateurs";
+filterpc.iprange01="Plage IP 01";
+filterpc.iprange02="Plage IP 02";
+
+var portsrv = new Object();
+portsrv.tcpudp="TCP et UDP";
+portsrv.portrange="Plage de ports";
+portsrv.add="Ajouter";
+portsrv.modify="Modifier";
+portsrv.cancel="Annuler";
+
+var secbutton = new Object();
+secbutton.editlist="Modifier la liste";
+secbutton.addedit="Ajouter/Modifier service";
+secbutton.editlistpc="Modifier liste des ordinateurs";
+secbutton.delpolicy="Supprimer cette politique";
+
+

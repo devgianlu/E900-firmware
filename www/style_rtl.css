@@ -1,0 +1,189 @@
+.PRODUCTNAME
+{
+	text-align:left;
+	padding-left:6px;
+        font-weight: bolder;
+	font-size: 10pt;
+	width:545px;
+	height:33px;
+	background-color:#2971b9;
+	color:#ffffff
+}
+
+.wpsfont{
+	background:white;
+	color:black;
+	font:16px Arial,Helvetica,sans-serif;
+	text-align:right;
+	padding-right:20px;
+	padding-left:8px;
+}
+.PROC_STATUS
+{
+	width:3px;
+	height:25px;
+	border-top:1px solid #999999;
+	border-right:1px solid #999999;
+	border-bottom:1px solid #999999;
+}
+
+.PROC_STATUS1
+{
+	width:297px;
+	height:25px;
+	border-top:1px solid #999999;
+	border-left:1px solid #999999;
+	border-bottom:1px solid #999999;
+}
+
+.WPS_LOGO
+{
+
+        background-image:url(image/WFA_WPS_Mark_Solo0.gif);
+	background-repeat:no-repeat;
+	padding-right:10px;
+	background-position:right;	
+	padding-top:5px;
+}
+.TITLE1
+{
+	font-size:9pt;
+	color:#ffffff;
+	background-color:#5b5b5b;
+	width:152px;
+	height:25px;
+	text-align:left;
+    font-weight: bolder;
+	padding-left:6px;
+}
+.TITLE2
+{
+	color:#000000;
+	background-color:#e7e7e7;
+	width:158px;
+        font-weight: bolder;
+	text-align:left;
+	vertical-align:top;
+	padding:0;
+	border:0;
+}
+.FUNNAME1
+{
+	width:auto;
+	padding-right:20px;
+	padding-left:5px;
+}
+.FUNNAME2
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:right;
+	padding-right:20px;
+	width:111px;
+}
+.FUN_FRANG1
+{
+	width:7px;
+	height:15px;
+	padding:0;
+	border:0;
+	background-image:url(image/UI_03-2_rtl.jpg);
+	background-repeat:no-repeat;
+}
+.FUNFIELD
+{
+	width:300px;
+	text-align:right;
+}
+.TITLE_IMG
+{
+	background-color:#e7e7e7;
+	background-image:url(image/UI_04_rtl.jpg);
+	width:6px;
+	background-repeat:repeat;
+}
+.HELP_P
+{
+	padding-right:12px;
+	font-size:9pt;
+	font-weight:bolder;
+}
+.HELP
+{
+	vertical-align:top;
+        background-image:url(image/UI_05_rtl.jpg);
+        width:13px;
+	background-color:#2971b9;
+}
+.HELP3
+{
+	background-color:#2971b9;
+	background-image:url(image/UI_Cisco_rtl.jpg);
+        background-repeat:no-repeat;
+		background-position:right;
+	height:63px;
+	width:183px
+}
+.FW{
+	font-size:7pt;
+	text-align:left;
+	vertical-align:bottom;
+	padding-left:10px;
+	color:#ffffff
+}
+
+.LOGO_TD{
+	/*background-image:url(image/CY_LOGO.gif);*/
+	/*background-image:url(image/UI_Linksys.gif);*/
+	background-repeat:no-repeat;
+	background-position:right;
+	height:57px;
+	width:338px;
+	text-align:right;
+}
+
+.LOGO{
+	width:125px;
+	margin-right:25px;
+	margin-top:10px;
+}
+
+.FUNNAME4
+{
+	background:#2971b9;
+	height:35px;
+	width:495px;
+	padding-left:20px;
+	text-align:left
+}
+
+.FUNNAME5
+{
+	width:395px;
+	padding-right:20px;
+	font-weight:bolder;
+	font-size:11pt;	
+}
+
+.BORDERTABLE_LEFT TD
+{
+	border:1px solid #e7e7e7;
+	border-collapse: collapse;
+	padding:0;
+	background-color:#e7e7e7;
+	width:155px;
+	text-align:left;
+        padding-top:2px;
+	padding-left:3px;
+        padding-bottom:1px;
+}
+
+input
+{
+	_text-align:expression(this.type!="button"?"right":"center");
+	text-align:right;
+}
+input[type="button"]
+{
+	text-align:center;
+}

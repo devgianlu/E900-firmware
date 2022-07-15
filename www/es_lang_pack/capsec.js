@@ -1,0 +1,106 @@
+var secleftmenu = new Object();
+secleftmenu.filters="Filtros adicionales";
+secleftmenu.blockwan="Bloquear solicitudes WAN";
+secleftmenu.vpnpass="Paso a través de VPN";
+secleftmenu.interaccess="Acceso a Internet";
+secleftmenu.blocksrv="Servicios bloqueados";
+
+var firewall = new Object();
+firewall.firewallpro="Protección de firewall";
+firewall.spifirewallpro="Protección de firewall SPI";
+firewall.filterproxy="Proxy";
+firewall.cookies="Cookies";
+firewall.javaapplets="Java";
+firewall.activex="ActiveX";
+firewall.blockinterreq="Solicitudes anónimas de filtros de Internet";
+firewall.ipv6spifirewallpro="Protección de firewall SPI IPv6";
+
+var vpn = new Object();
+vpn.ipsecpass="Paso a través de IPSec";
+vpn.pptppass="Paso a través de PPTP";
+vpn.l2tppass="Paso a través de L2TP";
+
+var filter = new Object();
+filter.policyname="Introducir nombre de directiva";
+filter.deny="Denegar";
+filter.allow="Permitir";
+filter.dayandhr="Acceso a Internet durante los días y horas seleccionados.";
+filter.days="Días";
+filter.everyday="Todos los días";
+filter.sun="Dom";
+filter.mon="Lun";
+filter.tue="Mar";
+filter.wed="Mié ";
+filter.thu="Jue";
+filter.fri="Vie";
+filter.sat="Sáb";
+filter.times="Horas";
+filter.tfhrs="24 horas";
+filter.from="De";
+filter.to="Para";
+filter.am="AM";
+filter.pm="PM";
+filter.websiteblock="Bloqueo de sitios Web<BR>por dirección URL";
+filter.blockkeyword="Bloqueo de sitios Web<BR>por palabra clave";
+filter.accessrestric="Restricciones <BR>de acceso";
+filter.pcs="PC";
+filter.sun1="S";
+filter.mon1="L";
+filter.tue1="M";
+filter.wed1="Mi";
+filter.thu1="J";
+filter.fri1="V";
+filter.sat1="S";
+filter.appliedpc="PC aplicados";
+filter.thispolicy="(Esta directiva sólo se aplica a los PC de la lista.)";
+filter.schedule="Programación";
+filter.blockedapp="Aplicaciones bloqueadas";
+filter.threeapp="<B>Nota:</B> Sólo se pueden bloquear tres aplicaciones pordirectiva.";
+filter.blockedlist="Lista bloqueada";
+filter.keyword="Palabra clave";
+filter.threeapp2="<B>Nota:</b> Sólo se pueden bloquear tres aplicaciones por directiva.";
+
+var summary = new Object();
+summary.policy="Resumen de directivas de Internet";
+summary.num="N.º ";
+summary.policyname="Nombre de directiva";
+summary.days="Días";
+summary.tmofday="Hora";
+summary.tmofday2="Hora del día";
+
+var filterpc = new Object();
+filterpc.listpc="Lista de PC";
+filterpc.entermacaddr="Introduzca la dirección MAC de los PC con este formato";
+filterpc.mac01="MAC 01";
+filterpc.mac02="MAC 02";
+filterpc.mac03="MAC 03";
+filterpc.mac04="MAC 04";
+filterpc.mac05="MAC 05";
+filterpc.mac06="MAC 06";
+filterpc.mac07="MAC 07";
+filterpc.mac08="MAC 08";
+filterpc.enterip="Introduzca la dirección IP de los PC";
+filterpc.ip01="IP 01";
+filterpc.ip02="IP 02";
+filterpc.ip03="IP 03";
+filterpc.ip04="IP 04";
+filterpc.ip05="IP 05";
+filterpc.ip06="IP 06";
+filterpc.enteriprange="Introduzca el intervalo IP de los PC";
+filterpc.iprange01="Intervalo IP 01";
+filterpc.iprange02="Intervalo IP 02";
+
+var portsrv = new Object();
+portsrv.tcpudp="TCP y UDP";
+portsrv.portrange="Intervalo de puertos";
+portsrv.add="Agregar";
+portsrv.modify="Modificar";
+portsrv.cancel="Cancelar";
+
+var secbutton = new Object();
+secbutton.editlist="Editar lista";
+secbutton.addedit="Agregar/Editar servicio";
+secbutton.editlistpc="Editar lista de PC";
+secbutton.delpolicy="Eliminar esta directiva";
+
+
